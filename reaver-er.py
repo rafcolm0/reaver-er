@@ -103,9 +103,9 @@ def main():
             os.system("sudo pkill reaver")
             print("\n[OUT]************ SESSION FAILED. *********************\n")
             pass
-        output_file.close()
-        os.system("sudo pkill reaver")
-        print("\n\n[OUT]************  DONE.  *********************\n\n")
+    output_file.close()
+    os.system("sudo pkill reaver")
+    print("\n\n[OUT]************  DONE.  *********************\n\n")
 
 
 if __name__ == '__main__':
