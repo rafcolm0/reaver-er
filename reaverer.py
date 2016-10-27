@@ -36,10 +36,10 @@ def main():
     dumps_list = []
     INTERFACE = sys.argv[1]
     SESSION_NAME = sys.argv[2]
-    airodump = subprocess.Popen(["airodump-ng", INTERFACE, "--wps"], stderr=STDOUT, stdout=PIPE)
+    airodump = subprocess.Popen(["airodump-ng", INTERFACE, "--wps"])
     try:
         print ("\n[OUT]************ running AIRIDUMP-NG using ",  INTERFACE, "  ************ \n")
-        airodump.wait(timeout=200)
+        a, b = airodump.communicate(timeout=3)
     except TimeoutExpired:
         os.system("sudo pkill airodump-ng")
         airodump.terminate()

@@ -37,7 +37,9 @@ def signal_handler(signal, frame):
         print("\n[OUT]************ You pressed CTRL+C!  Terminated.  ************ \n")
         os.system("sudo pkill reaver")
         sys.exit(0)
-
+    global AIRODUMP_ON
+    AIRODUMP_ON = 0
+    
 
 def main():
     signal.signal(signal.SIGINT, signal_handler)
@@ -51,9 +53,16 @@ def main():
     print("\n[OUT]************ running AIRIDUMP-NG using ", INTERFACE, "  ************ \n")
     global AIRODUMP_ON
     AIRODUMP_ON = 1
-    dumps_list = subprocess.check_output(["airodump-ng", INTERFACE, "--wps"], stderr=STDOUT, universal_newlines=True)
+    process = subprocess.Popen(["airodump-ng", INTERFACE, "--wps"], stderr=subprocess.STDOUT, stdout=subprocess.PIPE, bufsize=1)
+    while AIRODUMP_ON:
+        out = process.stdout.read(1)
+        if out == '' and process.poll() != None:
+    	    break
+        if out != '':
+    	    sys.stdout.write(out.decode('utf-8'))
+    	    sys.stdout.flush()
     AIRODUMP_ON = 0
-    print(dumps_list)
+    print(out.decode('utf-8'))
     print("\n[OUT]************ AIRODUMP-NG done.  WPS routers available: ************ \n")
     print(        'BSSID              PWR RXQ  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS                    ESSID\n')
     output_file = open(SESSION_NAME + '_full.txt', 'w+')
