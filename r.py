@@ -66,6 +66,8 @@ def main():
     dump.close()
     dump = open('dumps', 'r')
     dumps_list = dump.read().splitlines()
+    dump.close()
+    os.remove(dump.name)
     print("\n[OUT]************ AIRODUMP-NG done.  WPS routers available: ************ \n")
     print(        'BSSID              PWR RXQ  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS                    ESSID\n')
     output_file = open(SESSION_NAME + '_full.txt', 'w+')
