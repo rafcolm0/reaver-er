@@ -1,0 +1,404 @@
+[0m[2J[?25l[2J
+[1;1H
+ CH  1 ][ Elapsed: 0 s ][ 2016-10-27 12:34                                         
+                                                                                                                             
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS     ESSID
+                                                                                                                             
+                                                                                                                             
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe                                                   
+                                                                                                                             
+[J[1;1H
+ CH  1 ][ Elapsed: 0 s ][ 2016-10-27 12:34                                         
+                                                                                                                             
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS     ESSID
+                                                                                                                             
+ EC:43:F6:4F:F8:F6  -47        1        0    0   1  54e  WPA  CCMP   PSK          ZyXEL27145                                 
+ A0:E4:CB:92:24:C5  -49        1        7    0   1  54e  WPA  CCMP   PSK          ZyXEL35000                                 
+                                                                                                                             
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe                                                   
+                                                                                                                             
+ EC:43:F6:4F:F8:F6  68:DB:CA:91:E2:E2  -72    0 -24      0        1                                                           
+ A0:E4:CB:92:24:C5  18:F6:43:CF:AA:34   -1    0e- 0      0        7                                                           
+[J[1;1H
+ CH  1 ][ Elapsed: 0 s ][ 2016-10-27 12:34                                         
+                                                                                                                             
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS     ESSID
+                                                                                                                             
+ EC:1A:59:07:55:74  -29        2        0    0   1  54e  WPA2 CCMP   PSK          <length:  6>                               
+ 5A:43:F6:4F:F8:F5  -47        2        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 60:31:97:1A:24:E2  -38        2        0    0   1  54e  WPA  CCMP   PSK          ZyXEL03526                                 
+ EC:43:F6:4F:F8:F6  -47        2        0    0   1  54e  WPA  CCMP   PSK          ZyXEL27145                                 
+ A0:E4:CB:92:24:C5  -51        1       15    0   1  54e  WPA  CCMP   PSK          ZyXEL35000                                 
+                                                                                                                             
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe                                                   
+                                                                                                                             
+ EC:43:F6:4F:F8:F6  68:DB:CA:91:E2:E2  -72    0 -24      0        1                                                           
+ A0:E4:CB:92:24:C5  18:F6:43:CF:AA:34  -71    0e- 0e     0       15                                                           
+[J[1;1H
+ CH  1 ][ Elapsed: 0 s ][ 2016-10-27 12:34                                         
+                                                                                                                             
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS     ESSID
+                                                                                                                             
+ EC:1A:59:07:55:74  -29        2        0    0   1  54e  WPA2 CCMP   PSK          <length:  6>                               
+ 5A:43:F6:4F:F8:F5  -47        2        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 60:31:97:1A:24:E2  -38        3        0    0   1  54e  WPA  CCMP   PSK          ZyXEL03526                                 
+ EC:43:F6:4F:F8:F6  -47        2        0    0   1  54e  WPA  CCMP   PSK          ZyXEL27145                                 
+ A0:E4:CB:92:24:C5  -50        1       20    0   1  54e  WPA  CCMP   PSK          ZyXEL35000                                 
+                                                                                                                             
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe                                                   
+                                                                                                                             
+ EC:43:F6:4F:F8:F6  68:DB:CA:91:E2:E2  -72    0 -24      0        1                                                           
+ A0:E4:CB:92:24:C5  18:F6:43:CF:AA:34  -72    0e- 0e    11       20                                                           
+[J[1;1H
+ CH  7 ][ Elapsed: 0 s ][ 2016-10-27 12:34                                         
+                                                                                                                             
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS     ESSID
+                                                                                                                             
+ EC:1A:59:07:55:74  -29        2        0    0   1  54e  WPA2 CCMP   PSK          <length:  6>                               
+ 5A:43:F6:4F:F8:F5  -47        2        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 60:31:97:1A:24:E2  -38        3        0    0   1  54e  WPA  CCMP   PSK          ZyXEL03526                                 
+ EC:43:F6:4F:F8:F6  -47        2        0    0   1  54e  WPA  CCMP   PSK          ZyXEL27145                                 
+ A0:E4:CB:92:24:C5  -50        1       20    0   1  54e  WPA  CCMP   PSK          ZyXEL35000                                 
+                                                                                                                             
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe                                                   
+                                                                                                                             
+ EC:43:F6:4F:F8:F6  68:DB:CA:91:E2:E2  -72    0 -24      0        1                                                           
+ A0:E4:CB:92:24:C5  18:F6:43:CF:AA:34  -72    0e- 0e    11       20                                                           
+[J[1;1H
+ CH  7 ][ Elapsed: 0 s ][ 2016-10-27 12:34                                         
+                                                                                                                             
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS     ESSID
+                                                                                                                             
+ 84:1B:5E:3A:10:20  -72        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     CECHHOME                                   
+ 00:1D:D6:9B:1E:80  -58        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     DSDS                                       
+ 00:1D:D6:DA:B6:D0  -80        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     Dill Halves                                
+ A0:E4:CB:A9:6C:BF  -88        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     ZyXEL58444                                 
+ 78:54:2E:F9:FA:74  -87        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     dlink-FA74                                 
+ E8:37:7A:C5:A5:38  -64        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     Inmywhat                                   
+ FA:8F:CA:53:31:89  -66        2        0    0   7  54e. OPN                      <length:  0>                               
+ EC:1A:59:07:55:74  -29        2        0    0   1  54e  WPA2 CCMP   PSK          <length:  6>                               
+ 5A:43:F6:4F:F8:F5  -47        2        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 60:31:97:1A:24:E2  -38        3        0    0   1  54e  WPA  CCMP   PSK          ZyXEL03526                                 
+ EC:43:F6:4F:F8:F6  -47        2        0    0   1  54e  WPA  CCMP   PSK          ZyXEL27145                                 
+ A0:E4:CB:92:24:C5  -50        1       20    0   1  54e  WPA  CCMP   PSK          ZyXEL35000                                 
+                                                                                                                             
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe                                                   
+                                                                                                                             
+ EC:43:F6:4F:F8:F6  68:DB:CA:91:E2:E2  -72    0 -24      0        1                                                           
+ A0:E4:CB:92:24:C5  18:F6:43:CF:AA:34  -72    0e- 0e    11       20                                                           
+[J[1;1H
+ CH  7 ][ Elapsed: 0 s ][ 2016-10-27 12:34                                         
+                                                                                                                             
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS     ESSID
+                                                                                                                             
+ 84:1B:5E:3A:10:20  -72        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     CECHHOME                                   
+ 00:1D:D6:9B:1E:80  -58        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     DSDS                                       
+ 00:1D:D6:DA:B6:D0  -80        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     Dill Halves                                
+ A0:E4:CB:A9:6C:BF  -88        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     ZyXEL58444                                 
+ 78:54:2E:F9:FA:74  -87        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     dlink-FA74                                 
+ E8:37:7A:C5:A5:38  -61        3        0    0   7  54e  WPA2 CCMP   PSK  1.0     Inmywhat                                   
+ FA:8F:CA:53:31:89  -66        3        0    0   7  54e. OPN                      <length:  0>                               
+ EC:1A:59:07:55:74  -29        2        0    0   1  54e  WPA2 CCMP   PSK          <length:  6>                               
+ 5A:43:F6:4F:F8:F5  -47        2        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 60:31:97:1A:24:E2  -38        3        0    0   1  54e  WPA  CCMP   PSK          ZyXEL03526                                 
+ EC:43:F6:4F:F8:F6  -47        2        0    0   1  54e  WPA  CCMP   PSK          ZyXEL27145                                 
+ A0:E4:CB:92:24:C5  -50        1       20    0   1  54e  WPA  CCMP   PSK          ZyXEL35000                                 
+                                                                                                                             
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe                                                   
+                                                                                                                             
+ EC:43:F6:4F:F8:F6  68:DB:CA:91:E2:E2  -72    0 -24      0        1                                                           
+ A0:E4:CB:92:24:C5  18:F6:43:CF:AA:34  -72    0e- 0e    11       20                                                           
+[J[1;1H
+ CH 13 ][ Elapsed: 0 s ][ 2016-10-27 12:34                                         
+                                                                                                                             
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS     ESSID
+                                                                                                                             
+ 84:1B:5E:3A:10:20  -72        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     CECHHOME                                   
+ 00:1D:D6:9B:1E:80  -58        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     DSDS                                       
+ 00:1D:D6:DA:B6:D0  -80        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     Dill Halves                                
+ A0:E4:CB:A9:6C:BF  -88        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     ZyXEL58444                                 
+ 78:54:2E:F9:FA:74  -87        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     dlink-FA74                                 
+ E8:37:7A:C5:A5:38  -61        3        0    0   7  54e  WPA2 CCMP   PSK  1.0     Inmywhat                                   
+ FA:8F:CA:53:31:89  -66        3        0    0   7  54e. OPN                      <length:  0>                               
+ EC:1A:59:07:55:74  -29        2        0    0   1  54e  WPA2 CCMP   PSK          <length:  6>                               
+ 5A:43:F6:4F:F8:F5  -47        2        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 60:31:97:1A:24:E2  -38        3        0    0   1  54e  WPA  CCMP   PSK          ZyXEL03526                                 
+ EC:43:F6:4F:F8:F6  -47        2        0    0   1  54e  WPA  CCMP   PSK          ZyXEL27145                                 
+ A0:E4:CB:92:24:C5  -50        1       20    0   1  54e  WPA  CCMP   PSK          ZyXEL35000                                 
+                                                                                                                             
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe                                                   
+                                                                                                                             
+ EC:43:F6:4F:F8:F6  68:DB:CA:91:E2:E2  -72    0 -24      0        1                                                           
+ A0:E4:CB:92:24:C5  18:F6:43:CF:AA:34  -72    0e- 0e    11       20                                                           
+[J[1;1H
+ CH 13 ][ Elapsed: 0 s ][ 2016-10-27 12:34                                         
+                                                                                                                             
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS     ESSID
+                                                                                                                             
+ 84:1B:5E:3A:10:20  -72        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     CECHHOME                                   
+ 00:1D:D6:9B:1E:80  -58        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     DSDS                                       
+ 00:1D:D6:DA:B6:D0  -80        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     Dill Halves                                
+ A0:E4:CB:A9:6C:BF  -88        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     ZyXEL58444                                 
+ 78:54:2E:F9:FA:74  -87        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     dlink-FA74                                 
+ E8:37:7A:C5:A5:38  -61        3        0    0   7  54e  WPA2 CCMP   PSK  1.0     Inmywhat                                   
+ FA:8F:CA:53:31:89  -66        3        0    0   7  54e. OPN                      <length:  0>                               
+ EC:1A:59:07:55:74  -29        2        0    0   1  54e  WPA2 CCMP   PSK          <length:  6>                               
+ 5A:43:F6:4F:F8:F5  -47        2        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 60:31:97:1A:24:E2  -38        3        0    0   1  54e  WPA  CCMP   PSK          ZyXEL03526                                 
+ EC:43:F6:4F:F8:F6  -47        2        0    0   1  54e  WPA  CCMP   PSK          ZyXEL27145                                 
+ A0:E4:CB:92:24:C5  -50        1       20    0   1  54e  WPA  CCMP   PSK          ZyXEL35000                                 
+                                                                                                                             
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe                                                   
+                                                                                                                             
+ EC:43:F6:4F:F8:F6  68:DB:CA:91:E2:E2  -72    0 -24      0        1                                                           
+ A0:E4:CB:92:24:C5  18:F6:43:CF:AA:34  -72    0e- 0e    11       20                                                           
+[J[1;1H
+ CH 13 ][ Elapsed: 0 s ][ 2016-10-27 12:34                                         
+                                                                                                                             
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS     ESSID
+                                                                                                                             
+ 84:1B:5E:3A:10:20  -72        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     CECHHOME                                   
+ 00:1D:D6:9B:1E:80  -58        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     DSDS                                       
+ 00:1D:D6:DA:B6:D0  -80        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     Dill Halves                                
+ A0:E4:CB:A9:6C:BF  -88        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     ZyXEL58444                                 
+ 78:54:2E:F9:FA:74  -87        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     dlink-FA74                                 
+ E8:37:7A:C5:A5:38  -61        3        0    0   7  54e  WPA2 CCMP   PSK  1.0     Inmywhat                                   
+ FA:8F:CA:53:31:89  -66        3        0    0   7  54e. OPN                      <length:  0>                               
+ EC:1A:59:07:55:74  -29        2        0    0   1  54e  WPA2 CCMP   PSK          <length:  6>                               
+ 5A:43:F6:4F:F8:F5  -47        2        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 60:31:97:1A:24:E2  -38        3        0    0   1  54e  WPA  CCMP   PSK          ZyXEL03526                                 
+ EC:43:F6:4F:F8:F6  -47        2        0    0   1  54e  WPA  CCMP   PSK          ZyXEL27145                                 
+ A0:E4:CB:92:24:C5  -50        1       20    0   1  54e  WPA  CCMP   PSK          ZyXEL35000                                 
+                                                                                                                             
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe                                                   
+                                                                                                                             
+ EC:43:F6:4F:F8:F6  68:DB:CA:91:E2:E2  -72    0 -24      0        1                                                           
+ A0:E4:CB:92:24:C5  18:F6:43:CF:AA:34  -72    0e- 0e    11       20                                                           
+[J[1;1H
+ CH  2 ][ Elapsed: 0 s ][ 2016-10-27 12:34                                         
+                                                                                                                             
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS     ESSID
+                                                                                                                             
+ 84:1B:5E:3A:10:20  -72        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     CECHHOME                                   
+ 00:1D:D6:9B:1E:80  -58        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     DSDS                                       
+ 00:1D:D6:DA:B6:D0  -80        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     Dill Halves                                
+ A0:E4:CB:A9:6C:BF  -88        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     ZyXEL58444                                 
+ 78:54:2E:F9:FA:74  -87        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     dlink-FA74                                 
+ E8:37:7A:C5:A5:38  -61        3        0    0   7  54e  WPA2 CCMP   PSK  1.0     Inmywhat                                   
+ FA:8F:CA:53:31:89  -66        3        0    0   7  54e. OPN                      <length:  0>                               
+ EC:1A:59:07:55:74  -31        3        0    0   1  54e  WPA2 CCMP   PSK          <length:  6>                               
+ 5A:43:F6:4F:F8:F5  -48        3        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 60:31:97:1A:24:E2  -37        4        0    0   1  54e  WPA  CCMP   PSK          ZyXEL03526                                 
+ EC:43:F6:4F:F8:F6  -47        2        0    0   1  54e  WPA  CCMP   PSK          ZyXEL27145                                 
+ A0:E4:CB:92:24:C5  -49        2       20    0   1  54e  WPA  CCMP   PSK          ZyXEL35000                                 
+                                                                                                                             
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe                                                   
+                                                                                                                             
+ EC:43:F6:4F:F8:F6  68:DB:CA:91:E2:E2  -72    0 -24      0        1                                                           
+ A0:E4:CB:92:24:C5  18:F6:43:CF:AA:34  -72    0e- 0e    11       20                                                           
+[J[1;1H
+ CH  2 ][ Elapsed: 0 s ][ 2016-10-27 12:34                                         
+                                                                                                                             
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS     ESSID
+                                                                                                                             
+ 52:E4:CB:92:24:C4  -45        2        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 84:1B:5E:3A:10:20  -72        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     CECHHOME                                   
+ 00:1D:D6:9B:1E:80  -58        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     DSDS                                       
+ 00:1D:D6:DA:B6:D0  -80        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     Dill Halves                                
+ A0:E4:CB:A9:6C:BF  -88        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     ZyXEL58444                                 
+ 78:54:2E:F9:FA:74  -87        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     dlink-FA74                                 
+ E8:37:7A:C5:A5:38  -61        3        0    0   7  54e  WPA2 CCMP   PSK  1.0     Inmywhat                                   
+ FA:8F:CA:53:31:89  -66        3        0    0   7  54e. OPN                      <length:  0>                               
+ EC:1A:59:07:55:74  -31        4        0    0   1  54e  WPA2 CCMP   PSK          <length:  6>                               
+ 5A:43:F6:4F:F8:F5  -48        4        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 60:31:97:1A:24:E2  -37        5        0    0   1  54e  WPA  CCMP   PSK          ZyXEL03526                                 
+ EC:43:F6:4F:F8:F6  -48        3        0    0   1  54e  WPA  CCMP   PSK          ZyXEL27145                                 
+ A0:E4:CB:92:24:C5  -48        3       20    0   1  54e  WPA  CCMP   PSK          ZyXEL35000                                 
+                                                                                                                             
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe                                                   
+                                                                                                                             
+ (not associated)   44:39:C4:ED:D9:6D  -88    0 - 1      0        1  NIU_MFGLINE                                              
+ (not associated)   C0:33:5E:84:D9:A0  -78    0 - 1      0        1                                                           
+ EC:43:F6:4F:F8:F6  68:DB:CA:91:E2:E2  -72    0 -24      0        1                                                           
+ A0:E4:CB:92:24:C5  18:F6:43:CF:AA:34  -72    0e- 0e    11       20                                                           
+[J[1;1H
+ CH  2 ][ Elapsed: 0 s ][ 2016-10-27 12:34                                         
+                                                                                                                             
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS     ESSID
+                                                                                                                             
+ 52:E4:CB:92:24:C4  -45        2        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 84:1B:5E:3A:10:20  -72        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     CECHHOME                                   
+ 00:1D:D6:9B:1E:80  -58        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     DSDS                                       
+ 00:1D:D6:DA:B6:D0  -80        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     Dill Halves                                
+ A0:E4:CB:A9:6C:BF  -88        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     ZyXEL58444                                 
+ 78:54:2E:F9:FA:74  -87        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     dlink-FA74                                 
+ E8:37:7A:C5:A5:38  -61        3        0    0   7  54e  WPA2 CCMP   PSK  1.0     Inmywhat                                   
+ FA:8F:CA:53:31:89  -66        3        0    0   7  54e. OPN                      <length:  0>                               
+ EC:1A:59:07:55:74  -32        5        0    0   1  54e  WPA2 CCMP   PSK          <length:  6>                               
+ 5A:43:F6:4F:F8:F5  -49        5        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 60:31:97:1A:24:E2  -38        6        0    0   1  54e  WPA  CCMP   PSK          ZyXEL03526                                 
+ EC:43:F6:4F:F8:F6  -48        4        0    0   1  54e  WPA  CCMP   PSK          ZyXEL27145                                 
+ A0:E4:CB:92:24:C5  -48        3       20    0   1  54e  WPA  CCMP   PSK          ZyXEL35000                                 
+                                                                                                                             
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe                                                   
+                                                                                                                             
+ (not associated)   44:39:C4:ED:D9:6D  -88    0 - 1      0        1  NIU_MFGLINE                                              
+ (not associated)   C0:33:5E:84:D9:A0  -78    0 - 1      0        1                                                           
+ EC:43:F6:4F:F8:F6  68:DB:CA:91:E2:E2  -78    0 - 1      2        2                                                           
+ A0:E4:CB:92:24:C5  18:F6:43:CF:AA:34  -72    0e- 0e    11       20                                                           
+[J[1;1H
+ CH  8 ][ Elapsed: 0 s ][ 2016-10-27 12:34                                         
+                                                                                                                             
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS     ESSID
+                                                                                                                             
+ 52:E4:CB:92:24:C4  -45        2        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 84:1B:5E:3A:10:20  -72        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     CECHHOME                                   
+ 00:1D:D6:9B:1E:80  -58        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     DSDS                                       
+ 00:1D:D6:DA:B6:D0  -80        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     Dill Halves                                
+ A0:E4:CB:A9:6C:BF  -88        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     ZyXEL58444                                 
+ 78:54:2E:F9:FA:74  -87        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     dlink-FA74                                 
+ E8:37:7A:C5:A5:38  -61        3        0    0   7  54e  WPA2 CCMP   PSK  1.0     Inmywhat                                   
+ FA:8F:CA:53:31:89  -66        3        0    0   7  54e. OPN                      <length:  0>                               
+ EC:1A:59:07:55:74  -32        5        0    0   1  54e  WPA2 CCMP   PSK          <length:  6>                               
+ 5A:43:F6:4F:F8:F5  -49        5        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 60:31:97:1A:24:E2  -38        6        0    0   1  54e  WPA  CCMP   PSK          ZyXEL03526                                 
+ EC:43:F6:4F:F8:F6  -48        4        0    0   1  54e  WPA  CCMP   PSK          ZyXEL27145                                 
+ A0:E4:CB:92:24:C5  -48        3       20    0   1  54e  WPA  CCMP   PSK          ZyXEL35000                                 
+                                                                                                                             
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe                                                   
+                                                                                                                             
+ (not associated)   44:39:C4:ED:D9:6D  -88    0 - 1      0        1  NIU_MFGLINE                                              
+ (not associated)   C0:33:5E:84:D9:A0  -78    0 - 1      0        1                                                           
+ EC:43:F6:4F:F8:F6  68:DB:CA:91:E2:E2  -78    0 - 1      2        2                                                           
+ A0:E4:CB:92:24:C5  18:F6:43:CF:AA:34  -72    0e- 0e    11       20                                                           
+[J[1;1H
+ CH  8 ][ Elapsed: 0 s ][ 2016-10-27 12:34                                         
+                                                                                                                             
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS     ESSID
+                                                                                                                             
+ E8:37:7A:C5:E1:38  -82        2        0    0   8  54e  WPA2 CCMP   PSK  1.0     GAZI                                       
+ 52:E4:CB:92:24:C4  -45        2        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 84:1B:5E:3A:10:20  -72        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     CECHHOME                                   
+ 00:1D:D6:9B:1E:80  -58        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     DSDS                                       
+ 00:1D:D6:DA:B6:D0  -80        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     Dill Halves                                
+ A0:E4:CB:A9:6C:BF  -88        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     ZyXEL58444                                 
+ 78:54:2E:F9:FA:74  -87        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     dlink-FA74                                 
+ E8:37:7A:C5:A5:38  -61        4        0    0   7  54e  WPA2 CCMP   PSK  1.0     Inmywhat                                   
+ FA:8F:CA:53:31:89  -68        4        0    0   7  54e. OPN                      <length:  0>                               
+ EC:1A:59:07:55:74  -32        5        0    0   1  54e  WPA2 CCMP   PSK          <length:  6>                               
+ 5A:43:F6:4F:F8:F5  -49        5        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 60:31:97:1A:24:E2  -38        6        0    0   1  54e  WPA  CCMP   PSK          ZyXEL03526                                 
+ EC:43:F6:4F:F8:F6  -48        4        0    0   1  54e  WPA  CCMP   PSK          ZyXEL27145                                 
+ A0:E4:CB:92:24:C5  -48        3       20    0   1  54e  WPA  CCMP   PSK          ZyXEL35000                                 
+                                                                                                                             
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe                                                   
+                                                                                                                             
+ (not associated)   44:39:C4:ED:D9:6D  -88    0 - 1      0        1  NIU_MFGLINE                                              
+ (not associated)   C0:33:5E:84:D9:A0  -78    0 - 1      0        1                                                           
+ EC:43:F6:4F:F8:F6  68:DB:CA:91:E2:E2  -78    0 - 1      2        2                                                           
+ A0:E4:CB:92:24:C5  18:F6:43:CF:AA:34  -72    0e- 0e    11       20                                                           
+[J[1;1H
+ CH  8 ][ Elapsed: 0 s ][ 2016-10-27 12:34                                         
+                                                                                                                             
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS     ESSID
+                                                                                                                             
+ E8:37:7A:C5:E1:38  -82        2        0    0   8  54e  WPA2 CCMP   PSK  1.0     GAZI                                       
+ 52:E4:CB:92:24:C4  -45        2        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 84:1B:5E:3A:10:20  -72        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     CECHHOME                                   
+ 00:1D:D6:9B:1E:80  -58        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     DSDS                                       
+ 00:1D:D6:DA:B6:D0  -80        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     Dill Halves                                
+ A0:E4:CB:A9:6C:BF  -88        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     ZyXEL58444                                 
+ 78:54:2E:F9:FA:74  -87        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     dlink-FA74                                 
+ E8:37:7A:C5:A5:38  -60        5        0    0   7  54e  WPA2 CCMP   PSK  1.0     Inmywhat                                   
+ FA:8F:CA:53:31:89  -68        4        0    0   7  54e. OPN                      <length:  0>                               
+ EC:1A:59:07:55:74  -32        5        0    0   1  54e  WPA2 CCMP   PSK          <length:  6>                               
+ 5A:43:F6:4F:F8:F5  -49        5        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 60:31:97:1A:24:E2  -38        6        0    0   1  54e  WPA  CCMP   PSK          ZyXEL03526                                 
+ EC:43:F6:4F:F8:F6  -48        4        0    0   1  54e  WPA  CCMP   PSK          ZyXEL27145                                 
+ A0:E4:CB:92:24:C5  -48        3       20    0   1  54e  WPA  CCMP   PSK          ZyXEL35000                                 
+                                                                                                                             
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe                                                   
+                                                                                                                             
+ (not associated)   44:39:C4:ED:D9:6D  -88    0 - 1      0        1  NIU_MFGLINE                                              
+ (not associated)   C0:33:5E:84:D9:A0  -78    0 - 1      0        1                                                           
+ EC:43:F6:4F:F8:F6  68:DB:CA:91:E2:E2  -78    0 - 1      2        2                                                           
+ A0:E4:CB:92:24:C5  18:F6:43:CF:AA:34  -72    0e- 0e    11       20                                                           
+[J[1;1H
+ CH  3 ][ Elapsed: 0 s ][ 2016-10-27 12:34                                         
+                                                                                                                             
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS     ESSID
+                                                                                                                             
+ E8:37:7A:C5:E1:38  -82        2        0    0   8  54e  WPA2 CCMP   PSK  1.0     GAZI                                       
+ 52:E4:CB:92:24:C4  -45        2        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 84:1B:5E:3A:10:20  -72        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     CECHHOME                                   
+ 00:1D:D6:9B:1E:80  -58        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     DSDS                                       
+ 00:1D:D6:DA:B6:D0  -80        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     Dill Halves                                
+ A0:E4:CB:A9:6C:BF  -88        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     ZyXEL58444                                 
+ 78:54:2E:F9:FA:74  -87        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     dlink-FA74                                 
+ E8:37:7A:C5:A5:38  -60        5        0    0   7  54e  WPA2 CCMP   PSK  1.0     Inmywhat                                   
+ FA:8F:CA:53:31:89  -68        4        0    0   7  54e. OPN                      <length:  0>                               
+ EC:1A:59:07:55:74  -32        5        0    0   1  54e  WPA2 CCMP   PSK          <length:  6>                               
+ 5A:43:F6:4F:F8:F5  -49        5        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 60:31:97:1A:24:E2  -38        6        0    0   1  54e  WPA  CCMP   PSK          ZyXEL03526                                 
+ EC:43:F6:4F:F8:F6  -48        4        0    0   1  54e  WPA  CCMP   PSK          ZyXEL27145                                 
+ A0:E4:CB:92:24:C5  -48        3       20    0   1  54e  WPA  CCMP   PSK          ZyXEL35000                                 
+                                                                                                                             
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe                                                   
+                                                                                                                             
+ (not associated)   44:39:C4:ED:D9:6D  -88    0 - 1      0        1  NIU_MFGLINE                                              
+ (not associated)   C0:33:5E:84:D9:A0  -78    0 - 1      0        1                                                           
+ EC:43:F6:4F:F8:F6  68:DB:CA:91:E2:E2  -78    0 - 1      2        2                                                           
+ A0:E4:CB:92:24:C5  18:F6:43:CF:AA:34  -72    0e- 0e    11       20                                                           
+[J[1;1H
+ CH  3 ][ Elapsed: 0 s ][ 2016-10-27 12:34                                         
+                                                                                                                             
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS     ESSID
+                                                                                                                             
+ E8:37:7A:C5:E1:38  -82        2        0    0   8  54e  WPA2 CCMP   PSK  1.0     GAZI                                       
+ 52:E4:CB:92:24:C4  -45        2        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 84:1B:5E:3A:10:20  -72        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     CECHHOME                                   
+ 00:1D:D6:9B:1E:80  -58        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     DSDS                                       
+ 00:1D:D6:DA:B6:D0  -80        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     Dill Halves                                
+ A0:E4:CB:A9:6C:BF  -88        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     ZyXEL58444                                 
+ 78:54:2E:F9:FA:74  -87        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     dlink-FA74                                 
+ E8:37:7A:C5:A5:38  -60        5        0    0   7  54e  WPA2 CCMP   PSK  1.0     Inmywhat                                   
+ FA:8F:CA:53:31:89  -68        4        0    0   7  54e. OPN                      <length:  0>                               
+ EC:1A:59:07:55:74  -32        5        0    0   1  54e  WPA2 CCMP   PSK          <length:  6>                               
+ 5A:43:F6:4F:F8:F5  -49        5        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 60:31:97:1A:24:E2  -38        6        0    0   1  54e  WPA  CCMP   PSK          ZyXEL03526                                 
+ EC:43:F6:4F:F8:F6  -48        4        0    0   1  54e  WPA  CCMP   PSK          ZyXEL27145                                 
+ A0:E4:CB:92:24:C5  -48        3       20    0   1  54e  WPA  CCMP   PSK          ZyXEL35000                                 
+                                                                                                                             
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe                                                   
+                                                                                                                             
+ (not associated)   44:39:C4:ED:D9:6D  -88    0 - 1      0        1  NIU_MFGLINE                                              
+ (not associated)   C0:33:5E:84:D9:A0  -78    0 - 1      0        1                                                           
+ EC:43:F6:4F:F8:F6  68:DB:CA:91:E2:E2  -78    0 - 1      2        2                                                           
+ A0:E4:CB:92:24:C5  18:F6:43:CF:AA:34  -72    0e- 0e    11       20                                                           
+[J[1;1H
+ CH 14 ][ Elapsed: 0 s ][ 2016-10-27 12:34                                         
+                                                                                                                             
+ BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS     ESSID
+                                                                                                                             
+ E8:37:7A:C5:E1:38  -82        2        0    0   8  54e  WPA2 CCMP   PSK  1.0     GAZI                                       
+ 52:E4:CB:92:24:C4  -45        2        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 84:1B:5E:3A:10:20  -72        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     CECHHOME                                   
+ 00:1D:D6:9B:1E:80  -58        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     DSDS                                       
+ 00:1D:D6:DA:B6:D0  -80        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     Dill Halves                                
+ A0:E4:CB:A9:6C:BF  -88        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     ZyXEL58444                                 
+ 78:54:2E:F9:FA:74  -87        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     dlink-FA74                                 
+ E8:37:7A:C5:A5:38  -60        5        0    0   7  54e  WPA2 CCMP   PSK  1.0     Inmywhat                                   
+ FA:8F:CA:53:31:89  -68        4        0    0   7  54e. OPN                      <length:  0>                               
+ EC:1A:59:07:55:74  -32        5        0    0   1  54e  WPA2 CCMP   PSK          <length:  6>                               
+ 5A:43:F6:4F:F8:F5  -49        5        0    0   1  54e  WPA  CCMP   PSK          <length: 32>                               
+ 60:31:97:1A:24:E2  -38        6        0    0   1  54e  WPA  CCMP   PSK          ZyXEL03526                                 
+ EC:43:F6:4F:F8:F6  -48        4        0    0   1  54e  WPA  CCMP   PSK          ZyXEL27145                                 
+ A0:E4:CB:92:24:C5  -48        3       20    9   1  54e  WPA  CCMP   PSK          ZyXEL35000                                 
+                                                                                                                             
+ BSSID              STATION            PWR   Rate    Lost    Frames  Probe                                                   
+                                                                                                                             
+ (not associated)   44:39:C4:ED:D9:6D  -88    0 - 1      0        1  NIU_MFGLINE                                              
+ (not associated)   C0:33:5E:84:D9:A0  -78    0 - 1      0        1                                                           
+ EC:43:F6:4F:F8:F6  68:DB:CA:91:E2:E2  -78    0 - 1      2        2                                                           
+ A0:E4:CB:92:24:C5  18:F6:43:CF:AA:34  -72    0e- 0e    11       20                                                           
+[J

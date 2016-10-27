@@ -1,0 +1,10 @@
+BSSID              PWR RXQ  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS                    ESSID
+ 84:1B:5E:3A:10:20  -72        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     CECHHOME                                   
+ 00:1D:D6:9B:1E:80  -58        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     DSDS                                       
+ 00:1D:D6:DA:B6:D0  -80        2        0    0   6  54e  WPA2 CCMP   PSK  1.0     Dill Halves                                
+ A0:E4:CB:A9:6C:BF  -88        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     ZyXEL58444                                 
+ 78:54:2E:F9:FA:74  -87        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     dlink-FA74                                 
+ E8:37:7A:C5:A5:38  -64        2        0    0   7  54e  WPA2 CCMP   PSK  1.0     Inmywhat                                   
+ E8:37:7A:C5:E1:38  -82        2        0    0   8  54e  WPA2 CCMP   PSK  1.0     GAZI                                       
+
+[OUT]********************* PIXIE-DUST on 84:1B:5E:3A:10:20  *********************
