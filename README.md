@@ -13,3 +13,5 @@ REQUIRES:
 -airodump-ng (with WPS feature; version 1.2 & up)
 -reaver
 -pixie-dust
+
+DISCLAIMER: the way the stdouts, stderrs and pipes are handled could posibly be improved and done in fewer lines of code. Not too worried about that for the moment, as long as the script works.
