@@ -21,7 +21,7 @@ REQUIRES:
 import sys
 import subprocess
 import os
-from subprocess import TimeoutExpired, PIPE, call, STDOUT, check_output
+from subprocess import TimeoutExpired, PIPE, call, STDOUT, check_output, DEVNULL
 import time
 import signal
 
@@ -29,13 +29,14 @@ global INTERFACE
 global dumps_list
 global wps_dumps
 global SESSION_NAME
-
+AIRODUMP_ON = 0
 
 def signal_handler(signal, frame):
-    print("\n[OUT]************ You pressed CTRL+C!  Terminated.  ************ \n")
     os.system("sudo pkill airodump-ng")
-    os.system("sudo pkill reaver")
-    sys.exit(0)
+    if AIRODUMP_ON == 0:
+        print("\n[OUT]************ You pressed CTRL+C!  Terminated.  ************ \n")
+        os.system("sudo pkill reaver")
+        sys.exit(0)
 
 
 def main():
@@ -47,32 +48,22 @@ def main():
     dumps_list = []
     INTERFACE = sys.argv[1]
     SESSION_NAME = sys.argv[2]
-    #airodump = subprocess.Popen(["airodump-ng", INTERFACE, "--wps"], stdout=PIPE, stderr=STDOUT)
-    #airodump = subprocess.Popen(["airodump-ng", INTERFACE, "--wps"])
-    airodump = subprocess.check_output(["airodump-ng", INTERFACE, "--wps"], timeout = 3)
-    try:
-        print("\n[OUT]************ running AIRIDUMP-NG using ", INTERFACE, "  ************ \n")
-        #airodump.wait(timeout=3)
-        #time.sleep(5)
-    except TimeoutExpired:
-        airodump.terminate()
-        airodump.kill()
-        os.system("sudo pkill airodump-ng")
-        print("\n[OUT]************ AIRODUMP-NG done.  WPS routers available: ************ \n")
-        print(
-            'BSSID              PWR RXQ  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS                    ESSID\n')
-        o_airodump, unused_stderr = airodump.communicate()
-        dumps_list = unused_stderr.splitlines()
-        print(dumps_list)
+    print("\n[OUT]************ running AIRIDUMP-NG using ", INTERFACE, "  ************ \n")
+    global AIRODUMP_ON
+    AIRODUMP_ON = 1
+    dumps_list = subprocess.check_output(["airodump-ng", INTERFACE, "--wps"], stderr=STDOUT, universal_newlines=True)
+    AIRODUMP_ON = 0
+    print(dumps_list)
+    print("\n[OUT]************ AIRODUMP-NG done.  WPS routers available: ************ \n")
+    print(        'BSSID              PWR RXQ  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS                    ESSID\n')
     output_file = open(SESSION_NAME + '_full.txt', 'w+')
     output_file.write("[OUT]************ AIRODUMP-NG done.  WPS routers available: ************ \n")
-    output_file.write(
-        'BSSID              PWR RXQ  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS                    ESSID\n')
+    output_file.write(            'BSSID              PWR RXQ  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS                    ESSID\n')
     wps_dumps = []
     essids = []
     for i in dumps_list:
         line = i.split()
-        if len(line) >= 10 and b'1.0' in line:
+        if len(line) >= 10:
             if line[0] not in essids:
                 output_file.write(i.decode(encoding='UTF-8') + "\n")
                 print(i.decode(encoding='UTF-8') + "\n")
@@ -101,9 +92,9 @@ def main():
             os.system("sudo pkill reaver")
             print("\n[OUT]************ SESSION FAILED. *********************\n")
             pass
-    output_file.close()
-    os.system("sudo pkill reaver")
-    print("\n\n[OUT]************  DONE.  *********************\n\n")
+        output_file.close()
+        os.system("sudo pkill reaver")
+        print("\n\n[OUT]************  DONE.  *********************\n\n")
 
 
 if __name__ == '__main__':

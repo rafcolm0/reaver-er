@@ -1,0 +1,2 @@
+[OUT]************ AIRODUMP-NG done.  WPS routers available: ************ 
+BSSID              PWR RXQ  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH WPS                    ESSID
