@@ -1,0 +1,57 @@
+#FOR REJECTING LOCALLY SPOOFED PACKETS
+sudo iptables -A INPUT -s 10.0.0.0/8 -j DROP
+sudo iptables -A INPUT -s 0.0.0.0/8 -j DROP
+sudo iptables -A INPUT -s 192.168.0.0/16 -j DROP
+sudo iptables -A INPUT -s 192.168.1.0/24 -j DROP
+sudo iptables -A INPUT -s 224.0.0.0/4 -j DROP
+sudo iptables -A INPUT -d 224.0.0.0/4 -j DROP
+sudo iptables -A INPUT -s 224.0.0.0/5 -j DROP
+sudo iptables -A INPUT -d 224.0.0.0/5 -j DROP
+sudo iptables -A INPUT -d 0.0.0.0/8 -j DROP
+sudo iptables -A INPUT -d 255.255.255.255 -j DROP
+#SMURF ATTACKS
+sudo iptables -A INPUT -p icmp -m icmp --icmp-type address-mask-request -j DROP
+sudo iptables -A INPUT -p icmp -m icmp --icmp-type timestamp-request -j DROP
+#DROP INVALID PACKETS
+sudo iptables -A INPUT -m state --state INVALID -j DROP
+sudo iptables -A FORWARD -m state --state INVALID -j DROP
+sudo iptables -A OUTPUT -m state --state INVALID -j DROP
+#DROP EXCESSIVE RST PACKETS
+sudo iptables -A INPUT -p tcp -m tcp --tcp-flags RST RST -m limit --limit 2/second --limit-burst 2 -j ACCEPT
+#ATTEMPT TO STOP & LOG PORTSCANS
+sudo iptables -A INPUT -m recent --name portscan --rcheck --seconds 86400 -j DROP
+sudo iptables -A FORWARD -m recent --name portscan --rcheck --seconds 86400 -j DROP
+sudo iptables -A INPUT -m recent --name portscan --remove
+sudo iptables -A FORWARD -m recent --name portscan --remove
+sudo iptables -A INPUT -p tcp -m tcp --dport 139 -m recent --name portscan --set -j LOG --log-prefix "Portscan:"
+sudo iptables -A INPUT -p tcp -m tcp --dport 139 -m recent --name portscan --set -j DROP
+sudo iptables -A FORWARD -p tcp -m tcp --dport 139 -m recent --name portscan --set -j LOG --log-prefix "Portscan:"
+sudo iptables -A FORWARD -p tcp -m tcp --dport 139 -m recent --name portscan --set -j DROP
+#SYN FLOODS
+sudo iptables -A INPUT -p tcp --syn -m limit --limit 1/s --limit-burst 3 -j RETURN
+#UDP FLOODS 
+sudo iptables -N udp-flood
+sudo iptables -A OUTPUT -p udp -j udp-flood
+sudo iptables -A udp-flood -p udp -m limit --limit 50/s -j RETURN
+sudo iptables -A udp-flood -j LOG --log-level 4 --log-prefix "UDP-flood:"
+sudo iptables -A udp-flood -j DROP
+#LIMIT CONNECTIONS PER IP AND IN GENERAL ON PORTS 80, 21, 22, 3000
+#sudo iptables -A INPUT -p tcp --dport 80 -m state --state NEW -m recent --set --name DDOS --rsource
+#sudo iptables -A INPUT -p tcp --dport 22 -m state --state NEW -m recent --set --name DDOS --rsource
+#sudo iptables -A INPUT -p tcp --dport 3000 -m state --state NEW -m recent --set --name DDOS --rsource
+#sudo iptables -A INPUT -p tcp --dport 21 -m state --state NEW -m recent --set --name DDOS --rsource
+#sudo iptables -A INPUT -p tcp --dport 80 -m state --state NEW -m recent --update --seconds 5 --hitcount 5 --name DDOS --rsource -j DROP
+#sudo iptables -A INPUT -p tcp --dport 22 -m state --state NEW -m recent --update --seconds 5 --hitcount 5 --name DDOS --rsource -j DROP
+#sudo iptables -A INPUT -p tcp --dport 3000 -m state --state NEW -m recent --update --seconds 5 --hitcount 5 --name DDOS --rsource -j DROP
+#sudo iptables -A INPUT -p tcp --dport 21 -m state --state NEW -m recent --update --seconds 5 --hitcount 5 --name DDOS --rsource -j DROP
+#sudo iptables -A INPUT -p tcp --syn --dport 80 -m connlimit --connlimit-above 15 --connlimit-mask 32 -j REJECT --reject-with tcp-reset
+#sudo iptables -A INPUT -p tcp --syn --dport 22 -m connlimit --connlimit-above 5 --connlimit-mask 32 -j REJECT --reject-with tcp-reset
+#sudo iptables -A INPUT -p tcp --syn --dport 21 -m connlimit --connlimit-above 5 --connlimit-mask 32 -j REJECT --reject-with tcp-reset
+#Force SYN packets check
+sudo iptables -A INPUT -p tcp ! --syn -m state --state NEW -j DROP
+#DROP FRAGMENTS PACKETS
+sudo iptables -A INPUT -f -j DROP
+#DROP XMAS PACKETS
+sudo iptables -A INPUT -p tcp --tcp-flags ALL NONE -j DROP
+#DROP NULL PACKETS
+sudo iptables -A INPUT -p tcp --tcp-flags NONE NONE -j DROP
